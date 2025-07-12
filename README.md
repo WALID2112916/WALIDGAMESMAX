@@ -1,2 +1,144 @@
-# WALIDGAMESMAX
-عرض قناتي وتحديثه
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>WALID GAMES MAX</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Tahoma, sans-serif;
+      background: linear-gradient(#fff, #ddd);
+      color: #111;
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background-color: #f4f4f4;
+      border-bottom: 3px solid #000;
+    }
+    header img {
+      height: 60px;
+      border-radius: 10px;
+    }
+    header h1 {
+      font-size: 26px;
+    }
+    .subscribe-btn {
+      background: red;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .section {
+      padding: 20px;
+    }
+    .info {
+      background-color: #eee;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 15px;
+    }
+    .video iframe {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+    }
+    .socials img {
+      width: 32px;
+      margin: 10px;
+      vertical-align: middle;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f4f4f4;
+      border-top: 3px solid #000;
+    }
+    .skin {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 100px;
+      animation: bounce 1s infinite alternate;
+    }
+    @keyframes bounce {
+      from { transform: translateY(0); }
+      to { transform: translateY(-20px); }
+    }
+    .files {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #eef;
+      border-radius: 10px;
+    }
+    .files a {
+      display: block;
+      margin: 5px 0;
+      color: #000;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display:flex; align-items:center;">
+      <img src="logo.jpg" alt="شعار">
+      <h1>WALID GAMES MAX</h1>
+    </div>
+    <a href="https://www.youtube.com/@WALID-GAMES-MAX" target="_blank">
+      <button class="subscribe-btn">اشترك في القناة</button>
+    </a>
+  </header>
+
+  <div class="section info">
+    <p>📅 منذ 2024 | 🎥 167 فيديو | 👁️‍🗨️ 367,898 مشاهدة</p>
+    <p>🎯 سبب إنشاء القناة: الترفيه وتقديم فيديوهات تعليمية ومسلية</p>
+  </div>
+
+  <div class="section">
+    <h2>📺 أحدث الفيديوهات</h2>
+    <div class="video-grid">
+      <div class="video"><iframe src="https://www.youtube.com/embed/l39CP9ZJhYc" allowfullscreen></iframe></div>
+      <div class="video"><iframe src="https://www.youtube.com/embed/fmPYNuueMf4" allowfullscreen></iframe></div>
+      <div class="video"><iframe src="https://www.youtube.com/embed/bIhVcNT070A" allowfullscreen></iframe></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📘 الشروحات</h2>
+    <p>💡 كيف تعمل لونتلد كلانين في لانشر؟ شرح خطوة بخطوة لتكوين كلاينت خاص وتشغيله بسهولة.</p>
+  </div>
+
+  <div class="section files">
+    <h2>📁 الملفات المستخدمة</h2>
+    <a href="#">🧍‍♂️ تحميل سكن WALID</a>
+    <a href="#">🛠️ أدوات الشرح</a>
+    <a href="#">🌍 خريطة ماين كرافت</a>
+  </div>
+
+  <img src="walid_skin_resized.png" class="skin" alt="سكن WALID">
+
+  <footer>
+    <div class="socials">
+      <a href="https://www.instagram.com/walidgames_2011/" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+      <a href="https://discord.gg/5y5CSnT4" target="_blank"><img src="discord.png" alt="Discord"></a>
+    </div>
+    <p>جميع الحقوق محفوظة © WALID GAMES MAX 2025</p>
+  </footer>
+</body>
+</html>
